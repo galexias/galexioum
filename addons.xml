@@ -43,7 +43,7 @@
         <description lang="en">[B][COLOR fff16a15]Galexioum[/COLOR] [COLOR white]Wizard[/COLOR][/B] offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://github.com/galexias/plugin.program.galexioum</source>
+        <source>https://github.com/galexias/plugin.program.galexioum/packages/</source>
         <news>
 
         </news>
