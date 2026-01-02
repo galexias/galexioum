@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+  <addon id="plugin.program.galexioum"
+         name="Galexioum Wizard"
+         version="4.0.1"
+         provider-name="Galexioum">
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+      <summary>Galexioum Wizard</summary>
+      <description>Galexioum maintenance & utility wizard</description>
+      <platform>all</platform>
+    </extension>
+
+  </addon>
+
+</addons>
