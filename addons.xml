@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
+
+  <!-- Galexioum Repository -->
   <addon id="repository.galexioum"
          name="Galexioum Repository"
          version="1.0.0"
@@ -7,9 +9,15 @@
 
     <extension point="xbmc.addon.repository">
       <dir>
-        <info compressed="false">https://galexias.github.io/galexioum/addons.xml</info>
-        <checksum>https://galexias.github.io/galexioum/addons.xml.md5</checksum>
-        <datadir zip="true">https://galexias.github.io/galexioum/</datadir>
+        <info compressed="false">
+          https://galexias.github.io/galexioum/addons.xml
+        </info>
+        <checksum>
+          https://galexias.github.io/galexioum/addons.xml.md5
+        </checksum>
+        <datadir zip="true">
+          https://galexias.github.io/galexioum/packages/
+        </datadir>
       </dir>
     </extension>
 
@@ -20,4 +28,28 @@
     </extension>
 
   </addon>
+
+
+  <!-- Galexioum Wizard Plugin -->
+  <addon id="plugin.program.galexioum"
+         name="Galexioum Wizard"
+         version="4.0.1"
+         provider-name="Galexioum">
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+      <summary>Galexioum Wizard</summary>
+      <description>Galexioum maintenance &amp; utility wizard</description>
+      <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+    </extension>
+
+  </addon>
+
 </addons>
